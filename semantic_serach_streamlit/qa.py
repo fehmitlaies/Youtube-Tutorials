@@ -1,5 +1,5 @@
 import openai
-openai.api_key="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"
+openai.api_key="api-key"
 def create_prompt(context,query):
     header = "Answer the question as truthfully as possible using the provided context, and if the answer is not contained within the text and requires some latest information to be updated, print 'Sorry Not Sufficient context to answer query' \n"
     return header + context + "\n\n" + query + "\n"
